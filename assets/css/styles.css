@@ -117,7 +117,7 @@ h5,
     font-weight: 400;
     line-height: 1.1;
     color: #43494E;
-    font-size: 0.938rem !important;
+    font-size: 1.3rem !important;
 }
 
 @media (max-width: 1200px) {
@@ -135,7 +135,7 @@ h6,
     font-weight: 400;
     line-height: 1.1;
     color: #43494E;
-    font-size: 0.75rem !important;
+    font-size: 1rem !important;
 }
 
 @media (max-width: 1200px) {
@@ -143,6 +143,12 @@ h6,
     .h6 {
         font-size: 0.5rem !important;
     }
+}
+
+.option-txt {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8rem !important;
+    color: #C4C4C4;
 }
 
 
@@ -225,9 +231,16 @@ ul {
     background-color: #66ae36;
     border-color: #66ae36;
     border-radius: 6.25rem;
+    font-size: 0.938rem !important;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 6.25rem;
+    padding-top: 0.625rem !important;
+    padding-right: 1.875rem !important;
+    padding-bottom: 0.625rem !important;
+    padding-left: 1.875rem !important;
+    min-width: 12.5rem;
 }
 
-.btn-success,
 .btn-success:active,
 .btn-success:hover {
     color: #fff;
