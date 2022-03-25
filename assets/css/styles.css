@@ -408,6 +408,110 @@ ul {
     text-align: right!important;
 }
 
+.p-footer-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.938rem !important;
+    color: #43494e;
+}
+
+
+/* не се сменя цвета, както и при hover-а отдолу */
+
+.footer-reg-link,
+a {
+    cursor: pointer;
+    color: #1979b1;
+    text-decoration: none;
+}
+
+.footer-reg-link:hover {
+    color: #6DBEDB;
+}
+
+.shortcuts {
+    color: #999999;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.813rem !important;
+    font-weight: 300;
+    text-transform: uppercase!important;
+}
+
+.footer-links,
+li,
+a {
+    color: #343841;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 300;
+    text-transform: none;
+    list-style-type: none;
+}
+
+.public-footer a:not(.force-link) {
+    color: #343841;
+}
+
+.public-footer {
+    background-color: #f1f1f1;
+    box-shadow: 0 -10px 100px rgb(0 0 0 / 20%);
+    border-top: 2px solid #fff;
+    position: relative;
+}
+
+.pb-20 {
+    padding-bottom: 1.25rem !important;
+}
+
+.pt-60 {
+    padding-top: 3.75rem !important;
+}
+
+.pl-30 {
+    padding-left: 1.875rem !important;
+}
+
+.pt-10 {
+    padding-top: 0.625rem !important;
+}
+
+.pb-60 {
+    padding-top: 3.75rem !important;
+}
+
+.footer-txt,
+li {
+    list-style-type: none;
+    color: #1979B1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.938rem !important;
+    cursor: pointer;
+}
+
+
+/* не се сменя цвета при hover */
+
+.footer-txt:hover {
+    color: #6DBEDB;
+}
+
+.icons {
+    color: #343841;
+    cursor: pointer;
+}
+
+
+/* .pb-30 {
+    padding-bottom: 1.875rem !important;
+}
+
+.pr-30 {
+    padding-bottom: 1.875rem !important;
+}
+
+.pl-30 {
+    padding-bottom: 1.875rem !important;
+} */
+
 
 /* .header-color {
     background-color: #345679;
