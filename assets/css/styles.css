@@ -36,6 +36,14 @@ body {
     outline: 0 !important;
 }
 
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+.drop-shadow {
+	box-shadow: 2px 6px 20px rgba(0,0,0,0.3);
+}
+
 h1,
 .h1 {
     margin-top: 1.5rem !important;
@@ -179,8 +187,9 @@ p {
     color: #43494E;
 }
 
-ol,
-ul {
+ol.list-none,
+ul.list-none {
+	list-style-type: none;
     padding-left: 0;
     padding-bottom: 0;
 }
@@ -192,6 +201,7 @@ ul {
     position: sticky;
     top: 0;
     opacity: var(--bs-primary);
+	padding: 10px 0;
 }
 
 
@@ -415,41 +425,47 @@ ul {
 }
 
 
-/* не се сменя цвета, както и при hover-а отдолу */
+.info-block {
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	padding: 20px;
+}
 
-.footer-reg-link,
+.info-block .btn img {
+	opacity: 0.5;
+}
+.info-block .btn:hover img {
+	opacity: 0.8;
+}
+
+.bgr-gray {
+	background-color: rgba(0,0,0,0.05);
+}
+.dash-sep-top {
+	border-top: dashed 2px rgba(0,0,0,0.1);
+}
+
+
 a {
     cursor: pointer;
     color: #1979b1;
     text-decoration: none;
 }
 
-.footer-reg-link:hover {
+a:hover {
     color: #6DBEDB;
 }
 
 .shortcuts {
+}
+.shortcuts-title {
     color: #999999;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 0.813rem !important;
-    font-weight: 300;
     text-transform: uppercase!important;
+	margin:20px 0 10px !important;
+	font-size: 1rem !important;
 }
 
-.footer-links,
-li,
-a {
-    color: #343841;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1rem !important;
-    font-weight: 300;
-    text-transform: none;
-    list-style-type: none;
-}
 
-.public-footer a:not(.force-link) {
-    color: #343841;
-}
 
 .public-footer {
     background-color: #f1f1f1;
@@ -457,6 +473,14 @@ a {
     border-top: 2px solid #fff;
     position: relative;
 }
+
+
+.footer-menu {
+    font-size: 0.938rem !important;
+}
+
+
+
 
 .pb-20 {
     padding-bottom: 1.25rem !important;
@@ -470,29 +494,22 @@ a {
     padding-left: 1.875rem !important;
 }
 
+.pr-30 {
+    padding-right: 1.875rem !important;
+}
+
 .pt-10 {
     padding-top: 0.625rem !important;
 }
 
-.pb-60 {
+.pt-60 {
     padding-top: 3.75rem !important;
 }
-
-.footer-txt,
-li {
-    list-style-type: none;
-    color: #1979B1;
-    font-family: 'Nunito', sans-serif;
-    font-size: 0.938rem !important;
-    cursor: pointer;
+.pb-60 {
+    padding-bottom: 3.75rem !important;
 }
 
 
-/* не се сменя цвета при hover */
-
-.footer-txt:hover {
-    color: #6DBEDB;
-}
 
 .icons {
     color: #343841;
@@ -500,31 +517,13 @@ li {
 }
 
 
-/* .pb-30 {
-    padding-bottom: 1.875rem !important;
+
+.d-flex {
+    display: flex;
 }
 
-.pr-30 {
-    padding-bottom: 1.875rem !important;
-}
+.gap-10 {gap: 10px;}
+.gap-20 {gap: 20px;}
+.gap-30 {gap: 30px;}
 
-.pl-30 {
-    padding-bottom: 1.875rem !important;
-} */
-
-
-/* .header-color {
-    background-color: #345679;
-} */
-
-
-/*.language-btn-info:hover {
-    color: #345679;
-    background-color: #345679;
-    border-color: #345679;
-}*/
-
-
-/*.dropdown {
-    border-color: #345679;
-} */
+.flex-item {flex: 1;}
