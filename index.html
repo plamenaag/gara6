@@ -67,6 +67,15 @@
             <section class="login-form-content-wrap" id="scroll-top">
                 <h1 class="pt-5">Организирайте своя гараж</h1>
                 <div class="pb-5">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Вход</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Регистрирай се</a>
+                        </li>
+
+                    </ul>
 
                     <div class="pt-10 d-flex">
                         <form class="login-form">
@@ -78,20 +87,25 @@
                                 <label class="form-label">Парола</label>
                                 <input type="password" class="form-control">
                             </div>
-							
-							<div class="d-flex justify-content-between pt-4 pb-5">
-								<button class="btn btn-primary btn-lg mr-20 targetBtn" type="button">Вход</button>
 
-								<div class="d-flex gap-10">
-									<div class="txt-small text-right">Вход с</div>
-									<svg xmlns="http://www.w3.org/2000/svg" width="38" height="25" fill="#229CD5" class="bi bi-facebook" viewBox="0 0 16 16" role="button">
+                            <div class="d-flex justify-content-between pt-4 pb-5">
+                                <button class="btn btn-primary btn-lg mr-20 targetBtn" type="button">Вход</button>
+
+                                <div class="d-flex gap-10">
+                                    <div class="txt-small text-right">Вход с</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="25" fill="#229CD5" class="bi bi-facebook" viewBox="0 0 16 16" role="button">
 										<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
 									  </svg>
-									<svg xmlns="http://www.w3.org/2000/svg" width="38" height="25" fill="#229CD5" class="bi bi-google" viewBox="0 0 16 16" role="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="25" fill="#229CD5" class="bi bi-google" viewBox="0 0 16 16" role="button">
 										<path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
 									  </svg>
-								</div>
-							</div>
+                                </div>
+                            </div>
+                            <div class="pt-10">
+                                <span class="mt-30 link form-label-pass">
+                      <span class=""></span> Забравена парола
+                                </span>
+                            </div>
                     </div>
                     </form>
                 </div>
@@ -101,7 +115,6 @@
         </section>
         </div>
     </section>
-
 
 
     <main class="main">
@@ -137,41 +150,41 @@
 
                 <section class="pt-5 pb-5 mb-5">
                     <div class="text-center d-flex flex-row gap-30">
-                        <section class="info-block flex-item d-flex flex-column justify-content-between">                            
-							<h5>Документи</h5>
-							<h6 class="">Гражданска отговорност, Технически преглед, Винетка, Каско, Данък и др.</h6>
-							<a class="btn btn-light mt-2" href="#section-4">
-								<img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
-							</a>                            
+                        <section class="info-block flex-item d-flex flex-column justify-content-between">
+                            <h5>Документи</h5>
+                            <h6 class="">Гражданска отговорност, Технически преглед, Винетка, Каско, Данък и др.</h6>
+                            <a class="btn btn-light mt-2" href="#section-4">
+                                <img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
+                            </a>
                         </section>
 
-                        <section class="info-block flex-item d-flex flex-column justify-content-between">                            
-							<h5>Пътни листове</h5>
-							<h6 class="">Попълнете дигитален пътен лист, който покрива всички норми заложени в законодателството на Република България.*</h6>
-							<a class="btn btn-light mt-2" href="#section-2">								
-								<img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
-							</a>                            
+                        <section class="info-block flex-item d-flex flex-column justify-content-between">
+                            <h5>Пътни листове</h5>
+                            <h6 class="">Попълнете дигитален пътен лист, който покрива всички норми заложени в законодателството на Република България.*</h6>
+                            <a class="btn btn-light mt-2" href="#section-2">
+                                <img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
+                            </a>
                         </section>
-                        <section class="info-block flex-item d-flex flex-column justify-content-between">                           
-							<h5>Сервизна книжка</h5>
-							<h6 class="">Създайте реална и актуална онлайн сервизна история.</h6>
-							<a class="btn btn-light mt-2" href="#section-1">
-								<img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
-							</a>                            
+                        <section class="info-block flex-item d-flex flex-column justify-content-between">
+                            <h5>Сервизна книжка</h5>
+                            <h6 class="">Създайте реална и актуална онлайн сервизна история.</h6>
+                            <a class="btn btn-light mt-2" href="#section-1">
+                                <img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
+                            </a>
                         </section>
-                        <section class="info-block flex-item d-flex flex-column justify-content-between">                            
-							<h5>Разход на гориво</h5>
-							<h6 class="">Проследете разхода на гориво по различни показатели.</h6>
-							<a class="btn btn-light mt-2" href="#section-5">
-								<img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
-							</a>                           
+                        <section class="info-block flex-item d-flex flex-column justify-content-between">
+                            <h5>Разход на гориво</h5>
+                            <h6 class="">Проследете разхода на гориво по различни показатели.</h6>
+                            <a class="btn btn-light mt-2" href="#section-5">
+                                <img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
+                            </a>
                         </section>
-                        <section class="info-block flex-item d-flex flex-column justify-content-between">                           
-							<h5>Експорт, автоматични справки и известия</h5>
-							<h6 class="">Ще получите e-mail и Viber напомняния, спрямо вашите конкретни нужди.</h6>
-							<a class="btn btn-light mt-2" href="#section-3">
-								<img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
-							</a>                            
+                        <section class="info-block flex-item d-flex flex-column justify-content-between">
+                            <h5>Експорт, автоматични справки и известия</h5>
+                            <h6 class="">Ще получите e-mail и Viber напомняния, спрямо вашите конкретни нужди.</h6>
+                            <a class="btn btn-light mt-2" href="#section-3">
+                                <img src="assets/img/icons/down-arrow.png" alt="down arrow icon">
+                            </a>
                         </section>
                     </div>
                     <div class="pb-30 pl-20"><span class="option-txt">* Опцията е достъпна за клиенти с платен абонамент</span></div>
@@ -179,122 +192,120 @@
 
 
             </div>
+        </section>
 
-            <div class="section-bgr bgr-gray" id="section-4">
-				<div class="row justify-content-center layout-wrap">
+        <div class="section-bgr bgr-gray" id="section-4">
+            <div class="row justify-content-center layout-wrap">
 
-					<section class="overflow-hidden ">
-						<div class="text-center pt-0 pb-0">
-							<div class="txt-panel p-5">
-								<h4>Документи</h4>
-								<p class="py-4">Gara6 Ви напомня за изтичаща застраховка „Гражданска отговорност“, автокаско, годишен технически преглед, винетка и всички други ваши документи. Gara6 Ви предоставя възможността да персонализирате "документите" на Вашия автомобил
-									според нуждите, които имате.</p>
-								<div class="text-center py-4"><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
-							</div>
-							<section class=""><img class="" src="assets/img/illustrations/screenshot-04.jpg" alt="Gara6 application interface"></section>
-						</div>
-					</section>
-
-				</div>
-			</div>
-
-
-			<div class="row justify-content-center layout-wrap" id="section-2">
-                <section class="">
-                    <div class="">
-                        <section class="d-flex align-items-center flex-row pt-5 pb-5 mb-5 mt-5">
-                            <section class="pr-30"><img class="drop-shadow" src="assets/img/illustrations/screenshot-02.jpg" alt="Gara6 application interface"></section>
-                            <section class="pl-30">
-                                <div>
-                                    <h4 class="mt-0">Пътни листове</h4>
-                                    <ul class="py-4">
-                                        <li>Попълнете дигитален пътен лист, който покрива всички норми заложени в законодателството на Република България.</li>
-                                        <li>Спестете време и придобийте по-добра проследимост на изминатите маршрути.</li>
-                                        <li>Следете изминатите километри и маршрутите на превозните Ви средства.</li>
-                                        <li>Оптимизирайте най-често изпълняваните си маршрути.</li>
-                                    </ul>
-                                    <div><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
-                                </div>
-                            </section>
-                        </section>
-                    </div>
-                </section>
-			</div>
-
-			<div class="section-bgr dash-sep-top pb-5 pt-5" id="section-1">
-				<div class="row justify-content-center layout-wrap pb-5 pt-5">
-					<section class="">
-						<div class="">
-							<section class="d-flex align-items-center flex-row">
-								<section class="pr-30">
-									<div class="txt-panel">
-										<h4 class="mt-0">Сервизна книжка</h4>
-										<ul class="py-4">
-											<li>Създайте реална и актуална онлайн сервизна история.</li>
-											<li>Gara6 ще следи сервизните интервали.</li>
-											<li>Gara6 ще обобщава разходите.</li>
-											<li>Gara6 ще помогне на вашия механик при диагностика и отстраняване на неизправности.</li>
-											<li>Gara6 ще подпомогне с продажбата на автомобила, предоставяйки доказуема сервизна история.</li>
-										</ul>
-										<div class=""><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
-									</div>
-								</section>
-								<section class="pl-30"><img class="drop-shadow" src="assets/img/illustrations/screenshot-01.jpg" alt="Gara6 application interface">
-								</section>
-							</section>
-						</div>
-					</section>
-				</div>
-			</div>
-
-			<div class="section-bgr bgr-gray pt-5" id="section-5">
-				<div class="row justify-content-center layout-wrap">
-
-					<section class="overflow-hidden">
-						<div class="text-center pb-0">
-							<div class="pb-5">
-								<h4 class="mt-3">Разход на гориво</h4>
-								<p class="py-4">Gara6 Ви предоставя ефикасен начин за следене на разхода на гориво. С помощта на платформата Вие може да придобиете представа, кой автомобил има най-висок разход, кой шофьор кара най-икономично или за кой маршрут се изразходва
-									най-много гориво.</p>
-								<div class=""><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
-							</div>
-							<section class="">
-								<img class="" src="assets/img/illustrations/screenshot-05.jpg" alt="Gara6 application interface">
-							</section>
-						</div>
-					</section>
-				</div>
-			</div>
-
-			<div class="row justify-content-center layout-wrap pb-5 pt-5" id="section-3">
-                <section class="">
-                    <div class="">
-                        <section class="d-flex align-items-center flex-row">
-                            <section class="">
-                                <div class="">
-                                    <h4 class="mt-0">Експорт, автоматични справки и известия</h4>
-                                    <ul class="py-4">
-                                        <li>Какви разходи генерира превозното Ви средство?</li>
-                                        <li>Колко Ви струва на километър? </li>
-                                        <li>Колко е реалният му среден разход на гориво?</li>
-                                    </ul>
-                                    <p class="mt-0 mb-4">Отговорите на всички тези въпроси може да получите само с няколко клика или директно на e-mail-a си всяка седмица/месец под формата на PDF документ.</p>
-                                    <div class=""><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
-                                </div>
-                            </section>
-                            <section class=""><img class="drop-shadow" src="assets/img/illustrations/screenshot-03.jpg" alt="Gara6 application interface"></section>
-                        </section>
+                <section class="overflow-hidden ">
+                    <div class="text-center pt-0 pb-0">
+                        <div class="txt-panel p-5">
+                            <h4>Документи</h4>
+                            <p class="py-4">Gara6 Ви напомня за изтичаща застраховка „Гражданска отговорност“, автокаско, годишен технически преглед, винетка и всички други ваши документи. Gara6 Ви предоставя възможността да персонализирате "документите" на Вашия автомобил
+                                според нуждите, които имате.</p>
+                            <div class="text-center py-4"><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
+                        </div>
+                        <section class=""><img class="" src="assets/img/illustrations/screenshot-04.jpg" alt="Gara6 application interface"></section>
                     </div>
                 </section>
 
+            </div>
+        </div>
 
-
-
-
+        <section id="thirdSection" class="main-content mt-0">
+            <div class="section-bgr bgr-pale-gray">
+                <div class="row justify-content-center layout-wrap" id="section-2">
+                    <section class="">
+                        <div class="">
+                            <section class="d-flex align-items-center flex-row pt-5 pb-5 mb-5 mt-5">
+                                <section class="pr-30"><img class="drop-shadow" src="assets/img/illustrations/screenshot-02.jpg" alt="Gara6 application interface"></section>
+                                <section class="pl-30">
+                                    <div>
+                                        <h4 class="mt-0">Пътни листове</h4>
+                                        <ul class="py-4">
+                                            <li>Попълнете дигитален пътен лист, който покрива всички норми заложени в законодателството на Република България.</li>
+                                            <li>Спестете време и придобийте по-добра проследимост на изминатите маршрути.</li>
+                                            <li>Следете изминатите километри и маршрутите на превозните Ви средства.</li>
+                                            <li>Оптимизирайте най-често изпълняваните си маршрути.</li>
+                                        </ul>
+                                        <div><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                    </section>
+                </div>
             </div>
 
 
+            <div class="section-bgr bgr-pale-gray dash-sep-top pb-5 pt-5" id="section-1">
+                <div class="row justify-content-center layout-wrap pb-5 pt-5">
+                    <section class="">
+                        <div class="">
+                            <section class="d-flex align-items-center flex-row">
+                                <section class="pr-30">
+                                    <div class="txt-panel">
+                                        <h4 class="mt-0">Сервизна книжка</h4>
+                                        <ul class="py-4">
+                                            <li>Създайте реална и актуална онлайн сервизна история.</li>
+                                            <li>Gara6 ще следи сервизните интервали.</li>
+                                            <li>Gara6 ще обобщава разходите.</li>
+                                            <li>Gara6 ще помогне на вашия механик при диагностика и отстраняване на неизправности.</li>
+                                            <li>Gara6 ще подпомогне с продажбата на автомобила, предоставяйки доказуема сервизна история.</li>
+                                        </ul>
+                                        <div class=""><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
+                                    </div>
+                                </section>
+                                <section class="pl-30"><img class="drop-shadow" src="assets/img/illustrations/screenshot-01.jpg" alt="Gara6 application interface">
+                                </section>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </section>
+
+        <div class="section-bgr pt-5" id="section-5">
+            <div class="row justify-content-center layout-wrap">
+
+                <section class="overflow-hidden">
+                    <div class="text-center pb-0">
+                        <div class="pb-5">
+                            <h4 class="mt-3">Разход на гориво</h4>
+                            <p class="py-4">Gara6 Ви предоставя ефикасен начин за следене на разхода на гориво. С помощта на платформата Вие може да придобиете представа, кой автомобил има най-висок разход, кой шофьор кара най-икономично или за кой маршрут се изразходва
+                                най-много гориво.</p>
+                            <div class=""><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
+                        </div>
+                        <section class="">
+                            <img class="" src="assets/img/illustrations/screenshot-05.jpg" alt="Gara6 application interface">
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="row justify-content-center layout-wrap pb-5 pt-5" id="section-3">
+            <section class="">
+                <div class="">
+                    <section class="d-flex align-items-center flex-row">
+                        <section class="">
+                            <div class="">
+                                <h4 class="mt-0">Експорт, автоматични справки и известия</h4>
+                                <ul class="py-4">
+                                    <li>Какви разходи генерира превозното Ви средство?</li>
+                                    <li>Колко Ви струва на километър? </li>
+                                    <li>Колко е реалният му среден разход на гориво?</li>
+                                </ul>
+                                <p class="mt-0 mb-4">Отговорите на всички тези въпроси може да получите само с няколко клика или директно на e-mail-a си всяка седмица/месец под формата на PDF документ.</p>
+                                <div class=""><a class="btn btn-success btn-xbg btn-lg btn-rounded" href="#scroll-top">Научи повече</a></div>
+                            </div>
+                        </section>
+                        <section class=""><img class="drop-shadow" src="assets/img/illustrations/screenshot-03.jpg" alt="Gara6 application interface"></section>
+                    </section>
+                </div>
+            </section>
+
+        </div>
     </main>
 
     <footer class="public-footer">
@@ -313,7 +324,8 @@
 
                     <section class="d-flex flex-column">
                         <div class="">
-                            <div class="shortcuts mt-0"><h4 class="shortcuts-title">Бързи връзки</h4>
+                            <div class="shortcuts mt-0">
+                                <h4 class="shortcuts-title">Бързи връзки</h4>
                                 <ul class="list-none">
                                     <li><a href="/about">За нас</a></li>
                                     <li><a href="/terms-of-service">Общи условия</a></li>
@@ -322,7 +334,8 @@
                                 </ul>
                             </div>
                             <div class="">
-                                <div class="shortcuts"><h4 class="shortcuts-title">Последвайте ни</h4>
+                                <div class="shortcuts">
+                                    <h4 class="shortcuts-title">Последвайте ни</h4>
                                     <div class="d-flex gap-10 icons mt-1">
                                         <!-- <li><a class="" href="https://www.facebook.com/gara6.bg" target="_blank">&nbsp;</a></li>
                                         <li class="ml-10"><a class="" href="https://instagram.com/gara6.bg" target="_blank">&nbsp;</a></li>
@@ -338,7 +351,6 @@
                                           </svg>
 
                                     </div>
-
                                 </div>
                     </section>
                 </section>
@@ -349,7 +361,6 @@
                     </ul>
                 </div>
                 <div><a id="goTop" class="" title="Go to top" href="#top" style="display: block;">&nbsp;</a></div>
-
 
                 </div>
         </section>
@@ -372,6 +383,5 @@
     });
   </script> -->
 </body>
-
 
 </html>

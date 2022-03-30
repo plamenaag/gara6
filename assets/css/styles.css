@@ -36,12 +36,14 @@ body {
     outline: 0 !important;
 }
 
-img, svg {
+img,
+svg {
     max-width: 100%;
     height: auto;
 }
+
 .drop-shadow {
-	box-shadow: 2px 6px 20px rgba(0,0,0,0.3);
+    box-shadow: 2px 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 h1,
@@ -189,7 +191,7 @@ p {
 
 ol.list-none,
 ul.list-none {
-	list-style-type: none;
+    list-style-type: none;
     padding-left: 0;
     padding-bottom: 0;
 }
@@ -201,7 +203,7 @@ ul.list-none {
     position: sticky;
     top: 0;
     opacity: var(--bs-primary);
-	padding: 10px 0;
+    padding: 10px 0;
 }
 
 
@@ -398,6 +400,13 @@ ul.list-none {
     font-size: 1rem !important;
 }
 
+.form-label-pass {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem !important;
+    cursor: pointer;
+}
+
 .form-control {
     height: 2.5rem !important;
     padding-top: 0.5rem !important;
@@ -424,27 +433,32 @@ ul.list-none {
     color: #43494e;
 }
 
-
 .info-block {
-	border: 1px solid rgba(0,0,0,0.3);
-	border-radius: 4px;
-	padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 20px;
 }
 
 .info-block .btn img {
-	opacity: 0.5;
+    opacity: 0.5;
 }
+
 .info-block .btn:hover img {
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 .bgr-gray {
-	background-color: rgba(0,0,0,0.05);
-}
-.dash-sep-top {
-	border-top: dashed 2px rgba(0,0,0,0.1);
+    background-color: #e5edf3;
 }
 
+.bgr-pale-gray {
+    background-color: #f8f9fa;
+}
+
+
+/* .dash-sep-top {
+    border-top: dashed 2px rgba(0, 0, 0, 0.1);
+} */
 
 a {
     cursor: pointer;
@@ -456,16 +470,12 @@ a:hover {
     color: #6DBEDB;
 }
 
-.shortcuts {
-}
 .shortcuts-title {
     color: #999999;
     text-transform: uppercase!important;
-	margin:20px 0 10px !important;
-	font-size: 1rem !important;
+    margin: 20px 0 10px !important;
+    font-size: 1rem !important;
 }
-
-
 
 .public-footer {
     background-color: #f1f1f1;
@@ -474,13 +484,9 @@ a:hover {
     position: relative;
 }
 
-
 .footer-menu {
     font-size: 0.938rem !important;
 }
-
-
-
 
 .pb-20 {
     padding-bottom: 1.25rem !important;
@@ -505,25 +511,32 @@ a:hover {
 .pt-60 {
     padding-top: 3.75rem !important;
 }
+
 .pb-60 {
     padding-bottom: 3.75rem !important;
 }
-
-
 
 .icons {
     color: #343841;
     cursor: pointer;
 }
 
-
-
 .d-flex {
     display: flex;
 }
 
-.gap-10 {gap: 10px;}
-.gap-20 {gap: 20px;}
-.gap-30 {gap: 30px;}
+.gap-10 {
+    gap: 10px;
+}
 
-.flex-item {flex: 1;}
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.flex-item {
+    flex: 1;
+}
